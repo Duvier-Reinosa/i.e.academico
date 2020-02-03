@@ -1,0 +1,485 @@
+body{
+  font-family: "Poppins";
+  margin: 0;
+  color: #494949;
+}
+.contenedor{
+ width: 1024px;
+ display: flex;
+ margin: auto;
+ flex-wrap: wrap;
+}
+.header{
+  background-color: #e9e9e9;
+  display: flex;
+  flex-wrap: initial;
+  margin-top: 20px;
+  border-radius: 70px;
+  width: 100%;
+  height: 120px;
+  align-items: center;
+  text-decoration: none;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.logo{
+  width: 100px;
+  margin-left: 40px;
+  vertical-align: middle;
+}
+ol,
+li,
+.botonera {
+  margin-left: 35px;
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+.pequeñas{
+  color: white;
+  font-family: "lato";
+  vertical-align: middle;
+  margin: auto;
+}
+#a{
+  margin-top: 35px;
+  background-color: #ff4949;
+  border-radius:30px;
+  width: 99px;
+  height: 27px;
+  margin-left: -30px;
+}
+#b{
+  margin-bottom: 35px;
+  background-color: #4d9452;
+  border-radius:30px;
+  width: 104px;
+  height: 27px;
+  margin-left: -20px;
+}
+.texto-principal{
+  display:flex;
+  text-align: justify;
+  margin-top: 20px;
+}
+.mision{
+  width: 450px;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #9a9a9a;
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  border-radius: 30px;
+}
+.vision{
+  width: 450px;
+  padding-left: 15px;
+  background-color: #9a9a9a;
+  width: 480px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: white;
+  border-radius: 30px;
+
+}
+.politicas{
+  text-align: justify;
+  padding-left: 15px;
+  padding-right: 15px;
+  background-color: #9a9a9a;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: white;
+  border-radius: 30px;
+
+}
+footer{
+  margin: auto;
+  margin-top: 20px;
+  background-image: url("styles/stylefooter.png");
+  background-repeat: no-repeat;
+  width: 100%;
+}
+.logos_deAbajo{
+  margin-left: 471px;
+
+}
+
+footer p{
+  margin-left: 403px;
+  margin-top: 1px;
+  font-size: 13px;
+}
+.footerNotas{
+  margin-top: 160px;
+}
+#logos_footer{
+  width: 25px;
+
+}
+#titulos{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#parrafos{
+  margin-left: 15px;
+  margin-right: 15px;
+}
+#constructores
+{
+  height: 120px;
+  width: 110px;
+  cursor: pointer;
+  float: right;
+  margin-right: 13px;
+  margin-top: -1px;
+}
+#manual
+{
+  height: 120px;
+  width: 260px;
+  cursor: pointer;
+  margin-left: 15%;
+}
+#manual2
+{
+  height: 90px;
+  width: 260px;
+  cursor: pointer;
+  margin-left: 15%;
+}
+#convi
+{
+  display: inline-flex;
+  margin-left: 23%;
+ }
+ #texto4y5
+ {
+   cursor: pointer;
+   color: #4d9452;
+ }
+ #texto5
+ {
+   cursor: pointer;
+   color: #ff4949;
+ }
+ #imagenesfotos
+ {
+   display: inline-block;
+
+ }
+ #fotosdefotos
+ {
+   height: 80%;
+   width: 80%;
+ }
+ #pasacalle
+ {
+   width: 90%;
+ }
+ #botoncito
+ {
+   border-radius: 7px;
+   border: solid 1px white;
+   margin-top: 20px;
+   height: 40px;
+   width: 86px;
+   color: white;
+   background-color: #ff4949;
+   font-family: "Poppins";
+ }
+ .footercontacto{
+   margin-top: 240px;
+ }
+ @media screen and (max-width: 1024px) {
+
+ }
+ @media screen and (max-width: 767px) {
+   @font-face {
+     font-family: 'icomoon';
+     src:  url('fonts/icomoon.eot?bqb2fe');
+     src:  url('fonts/icomoon.eot?bqb2fe#iefix') format('embedded-opentype'),
+       url('fonts/icomoon.ttf?bqb2fe') format('truetype'),
+       url('fonts/icomoon.woff?bqb2fe') format('woff'),
+       url('fonts/icomoon.svg?bqb2fe#icomoon') format('svg');
+     font-weight: normal;
+     font-style: normal;
+   }
+
+
+   [class^="icon-"], [class*=" icon-"] {
+     /* use !important to prevent issues with browser extensions that change fonts */
+     font-family: 'icomoon' !important;
+     speak: none;
+     font-style: normal;
+     font-weight: normal;
+     font-variant: normal;
+     text-transform: none;
+     line-height: 1;
+     font-size: 28px;
+
+     /* Better Font Rendering =========== */
+     -webkit-font-smoothing: antialiased;
+     -moz-osx-font-smoothing: grayscale;
+   }
+
+   .icon-menu:before {
+     content: "\e900";
+   }
+   .icon-menu{
+     position: fixed;
+     color: #323232;
+     margin: 0px 4px;
+     margin-left: 630px;
+     padding: 13px 14px;
+     z-index: 4;
+     background-color: rgba(50, 50, 50, .3);
+     border-radius: 50px;
+    }
+   .botonera.is-active{
+     left: -35px;
+   }
+
+   .botonera{
+     position: fixed;
+     background: rgba(200, 200, 200, .9);
+     z-index: 3;
+     top: 0;
+     left: 803px;
+     width: 100vw;
+     height: 100vh;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     transition: .3s;
+   }
+   ol,
+   li{
+     top:-40px;
+   }
+   .contenedor{
+     width: 100%;
+   }
+   .header{
+     width: 97%;
+   }
+   .texto-principal{
+     display: block;
+   }
+   .mision{
+     width: 90%;
+     padding: 10px;
+     margin: 20px;
+     margin-left: 30px;
+   }
+   .vision{
+     width: 90%;
+     padding: 10px;
+     margin: 20px;
+     margin-left: 30px;
+   }
+   .politicas{
+     width: 90%;
+     padding: 10px;
+     margin: 20px;
+     margin-top: 10px;
+     margin-left: 30px;
+   }
+   footer{
+    margin-left: -27px;
+   }
+   .logos_deAbajo {
+    margin-left: 370px;
+}
+footer p{
+  margin-left: 305px;
+}
+#convi {
+    margin-left: 7%;
+ }
+ }
+ @media screen and (max-width: 480px) {
+   .header{
+     height: 80px;
+   }
+   .logo{
+     width: 70px;
+   }
+   .icon-menu{
+     margin-left: 378px;
+     font-size: 20px;
+   }
+   .botonera{
+
+   }
+   .botonera.is-active{
+     left: -34px;
+   }
+   #a{
+     margin-top: 10px;
+     background-color: #ff4949;
+     border-radius:30px;
+     width: 99px;
+     height: 27px;
+     margin-left: 7px;
+   }
+   #b{
+     margin-bottom: -10px;
+     background-color: #4d9452;
+     border-radius:30px;
+     width: 104px;
+     height: 27px;
+     margin-left: 7px;
+   }
+   ol,
+   li,
+   .botonera{
+     flex-wrap: wrap;
+   }
+   .mision{
+     margin-left: 15px;
+   }
+   .vision{
+     margin-left: 15px;
+   }
+   .politicas{
+     margin: initial;
+     margin-left: 15px;
+   }
+   footer{
+     background-position: bottom;
+     background-size: 100%;
+     width: 106%;
+   }
+   .logos_deAbajo{
+     margin-left: 228px;
+   }
+   footer p {
+    margin-left: 159px;
+}
+.videoProyectos{
+  width: 95%;
+  margin: auto;
+}
+.ciudadRegion{
+  margin-top: -287px;
+}
+#convi {
+    margin-left: -1%;
+ }
+ #manual{
+   width: 205px;
+   height: 90px;
+ }
+ #manual2{
+   width: 205px;
+   height: 80px;
+ }
+ .imagenPrimearia{
+   width: 100%;
+ }
+ #imagenSedePrincipal{
+   width: 90%;
+   margin: auto;
+ }
+ #pasacalle{
+   width: 90%;
+   margin:auto;
+ }
+ }
+ @media screen and (max-width: 425px) {
+   .icon-menu {
+    margin-left: 330px;
+}
+.logo{
+  margin-left: 25px;
+}
+.mision {
+    margin-left: 12px;
+}
+.vision {
+    margin-left: 12px;
+}
+.politicas {
+    margin-left: 12px;
+}
+.logos_deAbajo {
+    margin-left: 200px;
+}
+footer p {
+    margin-left: 133px;
+}
+#a{
+  position: relative;
+  left: -27px;
+  margin-top: 10px;
+  background-color: #ff4949;
+  border-radius:30px;
+  width: 99px;
+  height: 27px;
+  margin-left: 5px;
+}
+#b{
+  position: relative;
+  left: -27px;
+  margin-bottom: -10px;
+  background-color: #4d9452;
+  border-radius:30px;
+  width: 104px;
+  height: 27px;
+  margin-left: 5px;
+}
+#convi {
+    margin-left: -7%;
+ }
+ }
+ @media screen and (max-width: 375px) {
+   .icon-menu {
+    margin-left: 280px;
+}
+.mision {
+  margin-left: 9px;
+}
+.vision {
+    margin-left: 9px;
+}
+.politicas {
+    margin-left: 9px;
+}
+.logos_deAbajo {
+    margin-left: 172px;
+}
+footer p {
+    margin-left: 102px;
+}
+#a,
+#b{
+  left: 6px;
+}
+ }
+ @media screen and (max-width: 320px) {
+   .icon-menu {
+    margin-left: 231px;
+}
+.mision {
+  margin-left: 6px;
+}
+.vision {
+    margin-left: 6px;
+}
+.politicas {
+    margin-left: 6px;
+}
+.logos_deAbajo {
+    margin-left: 147px;
+}
+footer p{
+  margin-left: 83px;
+}
+#a,
+#b{
+  left: -22px;
+}
+ }
